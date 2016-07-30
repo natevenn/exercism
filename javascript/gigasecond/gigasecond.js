@@ -1,7 +1,8 @@
-function Gigasecond(date) {
+function Gigasecond(birthDate) {
   this.date = function() {
-    var datePlusGs = date.setSeconds(date.getSeconds() + Math.pow(10, 9))
-    return date
+    newDate = new Date(birthDate)
+    newDate.setUTCSeconds(newDate.getSeconds() + Math.pow(10, 9))
+    return newDate
   }
 };
 
