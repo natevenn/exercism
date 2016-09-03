@@ -26,12 +26,3 @@ var normalizeWord = function(value) {
 
 
 module.exports = Anagram
-
-//take the word in subject and sort it alphabetically
-//take all possible anagrams and also sort them alphabetically
-//compare each possible anagram to the word in subject
-//if one matches place in a new list of anagrams
-//return the list of all possible anagrams
-//if none match return empty list
-
-
